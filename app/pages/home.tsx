@@ -9,7 +9,7 @@ const HomePage: React.FC = () => {
                     Hallo captain! I am Ai Chan your personal guide into the world of honkai and welcome to the valkyrie Archives
                     Here you will find all the information you need about the valkyries, the stigmata, the weapons and their lore itself.
                     you will hire from the best of the best to build your team and take on the honkai beasts and save the world from the honkai.
-                    So what are you waiting for captain? Let's dive in and explore the world of honkai together.
+                    So  what are you waiting for captain? Let's dive in and explore the world of honkai together.
                 </p>
             </div>
         </div>
