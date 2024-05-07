@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-link {
+    transition: color 0.3s ease;
+    cursor: pointer;
+
+}

@@ -1,7 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -17,13 +17,18 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: black;
+  background-image: url('/image.png');
+  height: 100vh;
+  min-height: 500px;
+  background-position: center 14rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header {
+  background-image: url('/images/Assets/Starry field.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @layer utilities {
